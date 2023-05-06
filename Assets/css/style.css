@@ -170,7 +170,7 @@ body{
     .sk-navbar .navbar-toggler{
         border: none;
         outline: none;
-        margin-right: 13px;
+        margin-right: 12px;
     }
     /* profile */
     .sk-profile{
@@ -240,9 +240,7 @@ body{
     }
     .sk-about-description p{
         margin-top:40px;
-        line-height: 20px;
-        font-family: var(--paragraph-font);
-        color: var(--theme-color);
+        line-height: 22px;
     }
     
 }
