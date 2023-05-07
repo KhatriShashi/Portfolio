@@ -68,7 +68,7 @@ body{
 }
 .sk-profile-card{
     height: 32rem;
-    width: 60rem;
+    width: 80%;
     position:absolute;
     top: 50%;
     left:50%;
@@ -154,9 +154,11 @@ body{
 @media only screen and (max-width: 760px) {
     .sk-navbar{
         padding: 10px 0;
+        margin-left: -41px !important;
     }
     .sk-navbar .navbar-brand{
         font-size: 15px;
+        margin-left:3rem !important;
     }
     .sk-navbar .navbar-brand i{
         margin-right: 8px;
@@ -170,7 +172,12 @@ body{
     .sk-navbar .navbar-toggler{
         border: none;
         outline: none;
-        margin-right: 12px;
+        margin-left:-40px;
+    }
+    .sk-navbar .navbar-toggler:focus,.sk-navbar .navbar-toggler:active{
+        border: none !important;
+        outline: none !important;
+        box-shadow: none !important;
     }
     /* profile */
     .sk-profile{
@@ -185,7 +192,7 @@ body{
     .sk-profile-card {
         height: 60rem;
         margin: 0 auto;
-        width: 30rem;
+        width: 90%;
         margin-top: 3rem;
     }
     .sk-profile-card1{
@@ -210,7 +217,7 @@ body{
         margin: 20px auto;
     }
     .sk-profile-card1 .profile-pic-section .profile-name p{
-        font-size: 20px;
+        font-size: 15px;
         font-weight: 100;
         margin-top: 30px;
         letter-spacing: 3px;
@@ -235,7 +242,7 @@ body{
         font-weight: bolder;
     }
     .sk-profile-card2 .sk-profile-description p{
-        font-size: 25px;
+        font-size: 15px;
         font-weight: 600;
     }
     .sk-about-description p{
