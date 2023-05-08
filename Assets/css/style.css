@@ -44,14 +44,13 @@ body{
     padding: 0 10px;
 }
 .sk-navbar #navbarNav ul li a{
+    color: var(--theme-color);
     font-family: var(--title-font-family);
     text-transform: uppercase;
     font-size: 15px;
+    transition: all 400ms ease-out;
 }
-.sk-navbar #navbarNav ul li .active{
-    color: rgb(31, 98, 254);
-}
-.sk-navbar #navbarNav ul li a:hover{
+.sk-navbar #navbarNav ul li a:hover,.sk-navbar #navbarNav ul li a:focus{
    color: rgb(31, 98, 254);
 }
 /* profile */
