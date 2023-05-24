@@ -177,7 +177,7 @@ body{
 @media only screen and (max-width: 760px) {
     /* profile */
     .sk-profile{
-        height:60rem;
+        height:63rem;
     }
     .sk-profile-bg1{
         height: 30rem;
@@ -189,7 +189,7 @@ body{
         height: 60rem;
         margin: 0 auto;
         width: 90%;
-        margin-top: 3rem;
+        margin-top: 1rem;
     }
     .sk-profile-card1{
         height: 30rem;
@@ -203,39 +203,15 @@ body{
         width: 10rem;
         margin-top: 20px;
     }
-    .sk-profile-card1 .profile-pic-section .profile-name h1{
-        font-size: 28px;
-        margin-top: 30px;
-    }
-    .sk-profile-card1 .profile-pic-section .profile-name .hr-line{
-        width: 6rem;
-        height: 2px;
-        margin: 20px auto;
-    }
     .sk-profile-card1 .profile-pic-section .profile-name p{
         font-size: 15px;
-        font-weight: 100;
-        margin-top: 30px;
-        letter-spacing: 3px;
     }
     .sk-social-media .sk-social-media-icon{
-       text-align: center;
-       word-spacing: 20px;
        margin-top: 18px;
-    }
-    .sk-social-media .sk-social-media-icon a{
-        text-decoration: none;
-        font-size: 28px;
-        color: var(--theme-color);
     }
     .sk-profile-card2{
         height: 30rem;
-        background-color: #fff;
         padding: 30px 0 0 20px;
-    }
-    .sk-profile-card2 .sk-profile-description h1{
-        font-size: 6rem;
-        font-weight: bolder;
     }
     .sk-profile-card2 .sk-profile-description p{
         font-size: 15px;
