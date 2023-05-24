@@ -53,6 +53,35 @@ body{
 .sk-navbar #navbarNav ul li a:hover,.sk-navbar #navbarNav ul li a:focus{
    color: rgb(31, 98, 254);
 }
+@media only screen and (max-width: 760px) {
+    .sk-navbar{
+        padding: 10px 0;
+        margin-left: -41px !important;
+    }
+    .sk-navbar .navbar-brand{
+        font-size: 15px;
+        margin-left:3rem !important;
+    }
+    .sk-navbar .navbar-brand i{
+        margin-right: 8px;
+    }
+    .sk-navbar .navbar-brand span{
+        font-size: 10px;
+    }
+    .sk-navbar #navbarNav ul{
+        margin-left: 40px !important;
+    }
+    .sk-navbar .navbar-toggler{
+        border: none;
+        outline: none;
+        margin-left:-40px;
+    }
+    .sk-navbar .navbar-toggler:focus,.sk-navbar .navbar-toggler:active{
+        border: none !important;
+        outline: none !important;
+        box-shadow: none !important;
+    }
+}
 /* profile */
 .sk-profile{
     height:40rem;
@@ -145,39 +174,7 @@ body{
     color: var(--theme-color);
     font-size: 15px;
 }
-
-
-
-
-/* responsive page */
 @media only screen and (max-width: 760px) {
-    .sk-navbar{
-        padding: 10px 0;
-        margin-left: -41px !important;
-    }
-    .sk-navbar .navbar-brand{
-        font-size: 15px;
-        margin-left:3rem !important;
-    }
-    .sk-navbar .navbar-brand i{
-        margin-right: 8px;
-    }
-    .sk-navbar .navbar-brand span{
-        font-size: 10px;
-    }
-    .sk-navbar #navbarNav ul{
-        margin-left: 40px !important;
-    }
-    .sk-navbar .navbar-toggler{
-        border: none;
-        outline: none;
-        margin-left:-40px;
-    }
-    .sk-navbar .navbar-toggler:focus,.sk-navbar .navbar-toggler:active{
-        border: none !important;
-        outline: none !important;
-        box-shadow: none !important;
-    }
     /* profile */
     .sk-profile{
         height:60rem;

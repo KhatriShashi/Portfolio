@@ -17,7 +17,7 @@
                 <div class="col-md-8 col-12 sk-profile-bg2"></div>   
             </div>
             <div class="sk-profile-card">
-            <div class="row container g-0">
+            <div class="row container g-0" style="margin-bottom:30px;">
                 <div class="col-md-5 col-12 sk-profile-card1">
                     <div class="profile-pic-section">
                         <div class="profile-pic">
@@ -50,7 +50,6 @@
             </div>
             </div>
         </div>
-
 <!-- misc Tags -->
 <?php include_once('./common/misc.php')?>
 </body>
